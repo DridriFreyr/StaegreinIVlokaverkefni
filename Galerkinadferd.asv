@@ -32,7 +32,7 @@
      A(1,3)=0;
      b(1)=gamma(1);
  else
-     A(1,2)=pm(1)/h(1)+h(1)*qm(1)/3+p(x(1))*alpha(1)/beta(1);
+     A(1,2)=pm(1)/h(1)+h(1)*qm(1)/3+p(x(1))*alpha(1)/alpha(2);
      b(1)=h(1)*(2*fx(1)+fx(2))/6+p(x(1))*gamma(1)/beta(1);
  end
  
@@ -40,10 +40,10 @@
  
  if beta(2) == 0
      A(N,1)= 0 ;
-     A(N,2) = alpha(2);
+     A(N,2) = beta(1);
      b(N)=gamma(2);
  else
-     A(N,2)=pm(N-1)/h(N-1)*qm(N-1)/3+p(x(N))*alpha(2)/beta(2);
+     A(N,2)=pm(N-1)/h(N-1)*qm(N-1)/3+p(x(N))*beta(1)/beta(2);
      b(N)=h(N-1)*(fx(N-1)+2*fx(N))/gamma(2)/beta(2);
  end
  
