@@ -25,9 +25,9 @@
  A(1:N-1,3)=A(2:N,1);
  b(2:N-1)=(h(1:N-2).*(fx(1:N-2)+2*fx(2:N-1))+h(2:N-1).*(2*fx(2:N-1)+fx(3:N)))/6;
  
- % Svo kemur 1 linan i hneppinu
+ % Lina 1 i hneppinu, stingum inn jadarskylirdunum:
  
- if beta(1) == 0
+ if beta(1) == 0 
      A(1,2)=alpha(1);
      A(1,3)=0;
      b(1)=gamma(1);
@@ -36,7 +36,7 @@
      b(1)=h(1)*(2*fx(1)+fx(2))/6+p(x(1))*gamma(1)/beta(1);
  end
  
- %L?na N (N+1 i notum)
+ %Lina N (N+1 i notum).
  
  if beta(2) == 0
      A(N,1)= 0 ;
@@ -47,12 +47,12 @@
      b(N)=h(N-1)*(fx(N-1)+2*fx(N))/gamma(2)/beta(2);
  end
  
- % set inn uppsprettu lidinna
+ % Hér bætum við uppspretulidunum við:
  
  m=length(r);
  for j=1:m
-     i=find(x<=r(j), 1, 'last' );
-     b(i-1)=b(i-1)+Q(j)*(1+(r(j)+x(i-1))/(x(i)-x(i-1)));
+     i=find(x<=r(j));
+     b(i-1)=b(i-1)+Q(j)*(1-(r(j)-x(i-1))/(x(i)-x(i-1)));
      b(i)=b(i)+Q(j)*(r(j)-x(i-1))/(x(i)-x(i-1));
  end
  c=tridigonal_solve(A,b);
