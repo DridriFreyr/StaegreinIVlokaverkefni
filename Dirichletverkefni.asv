@@ -17,18 +17,15 @@ R = sort(R,1);
 %Byrjum a því að finna nalgunargildi á R og Q
 x_vigur = linspace(a,b,M);
 y_vigur = linspace(c,d,N);
-r_hnit=NaN;
-p_hnit=NaN;
+r_hnit = zeros(length(R(1,:)),length(R(:,1)));
 if ~isempty(R)
-    r_hnit = zeros(length(R(1,:)),length(R(:,1)));
     for i = 1:length(R(:,1))
         r_hnit(i,1) = min(find(x_vigur>=R(i,1)));
         r_hnit(i,2) = min(find(y_vigur>=R(i,2)));
     end
 end
+p_hnit = zeros(length(P(1,:)),length(P(:,1)));
 if ~isempty(P)
-    
-    p_hnit = zeros(length(P(1,:)),length(P(:,1)));
     for j = 1:length(R(:,1))
         p_hnit(j,1) = min(find(x_vigur>=P(j,1)));
         p_hnit(j,2) = min(find(y_vigur>=P(j,2)));
@@ -54,7 +51,8 @@ for n=1:N
         x_half = a+(m-1)*(h/2);
         y_half = c+(n-1)*(h/2);
         % Viðbót 2 - fast gildi í ákveðnum punkti
-        
+        disp(x)
+        disp(y)
         % Jaðarskilyrði - u = gamma
         % Skilyrdi: (n==1) -> Viljum skoda nedstu linuna kassans
         % Skilyrdi: (n==N) -> Viljum skoda efstu linuna kassans
@@ -81,24 +79,24 @@ for n=1:N
             A(s,s_n_minus1) = -p(x,y_half-h)/h^2;  %p_j,s
             RHS(s) = f(x,y);
             fprintf('Innripunktur n=%.0f , m = %.0f\n',n,m)
-            if ~isnan(p_hnit)
-                if m == p_hnit(kj,1) && p_hnit(kj,2) == n && kj<=length(P(:,1))
-                    RHS(s) = f(x,y)+sum(Q(kj)/h^2);
-                    kj=kj+1;
-                    fprintf('Sérstöðupunktur - Punktuppspretta x=%.2f , y = %.2f , n=%.0f , m = %.0f\n',x,y,n,m)
-                end
+            
+            if m == p_hnit(kj,1) && p_hnit(kj,2) == y 
+                RHS(s) = f(x,y)+sum(Q(kj));
+                kj=kj+1;
+                fprintf('Sérstöðupunktur - Punktuppspretta x=%.0f , y = %.0f , n=%.0f , m = %.0f\n',x,y,n,m)
             end
+            
         end
-        if  ki<=length(R(:,1))
-            if m == r_hnit(ki,1) && r_hnit(ki,2) == n 
-                A(s,:) = 0;
-                A(s,s) = 1;
-                RHS(s) = U(ki);
-                ki = ki+1;
-                fprintf('Sérstöðupunktur - FAST GILDI x=%.2f , y = %.2f , n=%.2f , m = %.0f\n',x,y,n,m)
-                disp(A(s,:))
-            end
-        end
+        % if ~isempty(R) && ki<=length(R(:,1))
+        %    if floor(R(ki,1)) == x && floor(R(ki,2)) == y
+        %       A(s,:) = 0;
+        %      A(s,s) = 1;
+        %     RHS(s) = U(ki);
+        %    ki = ki+1;
+        %   fprintf('Sérstöðupunktur - FAST GILDI x=%.0f , y = %.0f , n=%.0f , m = %.0f\n',x,y,n,m)
+        %  disp(A(s,:))
+        % end
+        
     end
 end
 %Finnum lausn
