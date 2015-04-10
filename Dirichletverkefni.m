@@ -19,12 +19,15 @@ y_vigur = linspace(c,d,N);
 r_hnit=NaN;
 p_hnit=NaN;
 if ~isempty(R)
-    r_hnit = zeros(length(R(1,:)),length(R(:,1)));
+    r_hnit = zeros(length(R(:,1)),length(R(1,:)));
     for i = 1:length(R(:,1))
         r_hnit(i,1) = min(find(x_vigur>=R(i,1)));
         r_hnit(i,2) = min(find(y_vigur>=R(i,2)));
     end
 end
+disp(r_hnit)
+r_hnit = fliplr(sortrows(r_hnit));
+disp(r_hnit)
 if ~isempty(P)
     
     p_hnit = zeros(length(P(1,:)),length(P(:,1)));
@@ -88,14 +91,13 @@ for n=1:N
                 end
             end
         end
-        if  ki<=length(R(:,1))
+        if  ki<=length(r_hnit(:,1))
             if m == r_hnit(ki,1) && r_hnit(ki,2) == n 
                 A(s,:) = 0;
                 A(s,s) = 1;
                 RHS(s) = U(ki);
                 ki = ki+1;
                 fprintf('Sérstöðupunktur - FAST GILDI x=%.2f , y = %.2f , n=%.2f , m = %.0f\n',x,y,n,m)
-                disp(A(s,:))
             end
         end
     end
