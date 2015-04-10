@@ -12,7 +12,6 @@ A=zeros(M*N,M*N);       % Fylkid okkar er jafn stort og fjoldi punkta
 RHS=zeros(M*N,1);       % Haegri hlid hefur somu staerd og fylkid en er vigur
 ki = 1;                 % Dummy breyta fyrir visun í Rs
 kj = 1;                 % Dummy breyta fyrir vísun í Qs
-R = sort(R,1);
 %Setjum gildi i fylki og haegri hlid
 %Byrjum a því að finna nalgunargildi á R og Q
 x_vigur = linspace(a,b,M);
