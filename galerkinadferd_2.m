@@ -1,25 +1,35 @@
+%% Scriptið er gert til þess að fá nálgun með aðferð Galerkin á þúfugrunnföllum.
+% Inntök fyrir fallið eru föllin p(x),q(x),f(x) ásamt jaðargildis stuðlum 
+% alpha, beta og gamma.
+% Einnig býður fallið upp á að notandi setji inn punktuppsprettur í punkti
+% r af stærð Q.
+% Fallið skilar svo vigri c með stuðlum c_i sem er nálgun á lausn u(x_i).
+% ATH: scriptið er að mestu skrifað eftir uppskrift frá Ragnari Sigurðssyni úr
+% fyrirlestranótum hans frá janúar 2015.
+
 function c=galerkinadferd_2(p,q,f,x,alpha,beta,gamma,r,Q)
 
-N=length(x);
-h=x(2:N)-x(1:N-1);
-m=(x(2:N)+x(1:N-1))/2;
-pm=p(m);
+N=length(x); % Skilgreinum N sem er fjöldi punkta.
+h=x(2:N)-x(1:N-1); % h er lengd hlutbils.
+m=(x(2:N)+x(1:N-1))/2; % skilgreinum punkta m sem eru staðsetningar á millipunktum.
+pm=p(m); 
 qm=q(m);
 fx=f(x);
 
-A=zeros(N,3);
-b=zeros(N,1);
+A=zeros(N,3); %Byrjum á að búa til núllfylki og núll-vigur fyrir A og b,
+b=zeros(N,1); % við fyllum svo jafnt og þétt inni í A og b.
 
+% Byrjum á því að fylla inn í A og b fyrir línur 2 og niður í N-1:
 A(2:N-1,2) = pm(1:N-2)./h(1:N-2)+pm(2:N-1)./h(2:N-1)+(h(1:N-2).*qm(1:N-2)+h(2:N-1).*qm(2:N-1))/3;
 A(2:N,1) = -pm(1:N-1)./h(1:N-1)+h(1:N-1).*qm(1:N-1)/6;
 A(1:N-1,3) = A(2:N,1);
 b(2:N-1) = (h(1:N-2).*(fx(1:N-2)+2*fx(2:N-1))+h(2:N-1).*(2*fx(2:N-1)+fx(3:N)))/6;
-
+% Fyllum svi inn í fyrstu línurnar, eftir því hvað betan er.
 if beta(1) == 0
     A(1,2) = alpha(1);
     A(1,3) = 0;
     b(1) = gamma(1);
-else
+else 
     A(1,2) = pm(1)/h(1)+h(1)*qm(1)/3+p(x(1))*alpha(1)/beta(1);
     b(1) = h(1)*(2*fx(1)+fx(2))/6+p(x(1))*gamma(1)/beta(1);
 end
@@ -33,18 +43,18 @@ else
     b(N) = h(N-1)*(fx(N-1)+2*fx(N))/6+p(x(N))*(gamma(2)/beta(2));
 end
 
-if ~isempty(r)
+if ~isempty(r) % Stingum svo inn punktuppsprettum ef þær eru til staðar.
 m=length(r);
 for j=1:m
     
     i=max(find(x<=r(j)));
     b(i)= b(i)+Q(j);
-    %b(i-1)=b(i-1)+Q(j)*(1-(r(j)-x(i-1))/(x(i)-x(i-1)));
-    %b(i) = b(i)+Q(j)*(r(j)-x(i-1))/(x(i)-x(i-1));
-    %g.r.f að 
+
 end
 end
 
 
-
-c=tridiagonal_solve(A,b);
+%Notumst svo við forrit tridiagonal_solve sem Ragnar gaf á Uglu til að
+%leysa út fyrir c.
+c=tridiagonal_solve(A,b); 
+plot(x,c)
