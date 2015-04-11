@@ -1,4 +1,4 @@
-function c=galerkinadferd_2(p,q,f,x,alpha,beta,gamma,r,Q)
+function c=Galerkinadferd(p,q,f,x,alpha,beta,gamma,r,Q)
 
 N=length(x);
 h=x(2:N)-x(1:N-1);
