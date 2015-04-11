@@ -88,8 +88,8 @@ for n=1:N
                 end
             end
         end
-        if  ki<=length(R(:,1))
-            if m == r_hnit(ki,1) && r_hnit(ki,2) == n 
+        if  ~isnan(r_hnit)
+            if m == r_hnit(ki,1) && r_hnit(ki,2) == n && ki<=length(r_hnit(:,1)) 
                 A(s,:) = 0;
                 A(s,s) = 1;
                 RHS(s) = U(ki);
