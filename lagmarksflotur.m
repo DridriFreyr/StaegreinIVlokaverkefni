@@ -1,4 +1,4 @@
-function [W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,P,Q,R,U,h)
+function [Wn,A,RHS]=lagmarksflotur(a,b,c,d,p,q,f,gamma,P,Q,R,U,h,W0)
 %Author: Andri Freyr Thorgeirsson, Erna Gudrun Thorsteinsdottir og
 %        Rikhardur Thor Rognvaldsson
 
@@ -13,7 +13,6 @@ RHS=zeros(M*N,1);       % Haegri hlid hefur somu staerd og fylkid en er vigur
 ki = 1;                 % Dummy breyta fyrir visun í Rs
 kj = 1;                 % Dummy breyta fyrir vísun í Qs
 %Setjum gildi i fylki og haegri hlid
-%Byrjum a því að finna nalgunargildi á R og Q
 x_vigur = linspace(a,b,M);
 y_vigur = linspace(c,d,N);
 r_hnit=NaN;
@@ -49,10 +48,17 @@ for n=1:N
         s_m_minus1=m-1+M*(n-1);    % Numer linu fylkis sem samsvarar m-1,n
         s_n_plus1=m+M*(n+1-1);     % Numer linu fylkis sem samsvarar m,n+1
         s_n_minus1=m+M*(n-1-1);    % Numer linu fylkis sem samsvarar m,n-1
+        
+        s_n_minus1_m_minus1 =  m+M*(n-1-1)-1;    % Numer linu fylkis sem samsvarar m-1,n-1
+        s_n_minus1_m_plus1 =  m+M*(n-1-1)+1;     % Numer linu fylkis sem samsvarar m+1,n-1
+        s_n_plus1_m_minus1 = m+M*(n+1-1)-1;      % Numer linu fylkis sem samsvarar m-1,n+1
+        s_n_plus1_m_plus1 = m+M*(n+1-1)+1;     % Numer linu fylkis sem samsvarar m+1,n+1n
+        
         x = a+(m-1)*h;
         y = c+(n-1)*h;
         x_half = a+(m-1)*(h/2);
         y_half = c+(n-1)*(h/2);
+        
         % Viðbót 2 - fast gildi í ákveðnum punkti
         
         % Jaðarskilyrði - u = gamma
@@ -62,7 +68,7 @@ for n=1:N
         % Skilyrdi: (m==M) -> Viljum skoda haegri hlid kassans
         if  (m==1) || (M==m) || (n==1) || (N==n)
             A(s,s) = 1;
-            RHS(s) = gamma(x,y);
+            RHS(s) = W0(s);
 %             fprintf('Jadarpunktur n=%.0f , m = %.0f\n',n,m)
         end
         
@@ -74,26 +80,33 @@ for n=1:N
         %                        hlidarlinu thrihyrningsins
         % Skilyrdi: (n<N) -> Viljum ekki lenda i topppunktinum.
         if (n>1) && (m>1) && (m<M) && (n<N)
-            A(s,s) = ((p(x_half+h,y)+p(x_half-h,y)+p(x,y_half-h)+p(x,y_half+h))/h^2)+q(x,y);
-            A(s,s_m_plus1) = -p(x_half+h,y)/h^2;   %p_j,r
-            A(s,s_m_minus1) = -p(x_half-h,y)/h^2;  %p_j,l
-            A(s,s_n_plus1) = -p(x,y_half+h)/h^2;   %p_j,t
-            A(s,s_n_minus1) = -p(x,y_half-h)/h^2;  %p_j,s
-            RHS(s) = f(x,y);
+            % Reiknum nálgunina á afleidunum
+            p_m_minus1 = 1/sqrt(1+abs((W0(s)-W0(s_m_minus1))/(h)+(W0(s_n_plus1_m_minus1)+W0(s_n_plus1)-W0(s_n_minus1_m_minus1)-W0(s_m_plus1))/(4*h))^2);
+            p_n_plus1 = 1/sqrt(1+abs((W0(s)-W0(s_n_plus1))/(h)+(W0(s_n_plus1_m_minus1)+W0(s_m_minus1)-W0(s_n_plus1_m_plus1)-W0(s_m_plus1))/(4*h))^2);
+            p_n_minus1 = 1/sqrt(1+abs((W0(s_n_minus1)-W0(s))/(h)+(W0(s_n_minus1_m_minus1)+W0(s_m_minus1)-W0(s_n_minus1_m_plus1)-W0(s_m_plus1))/(4*h))^2);
+            p_m_plus1 = 1/sqrt(1+abs((W0(s_m_plus1)-W0(s))/(h)+(W0(s_n_plus1)+W0(s_n_plus1_m_plus1)-W0(s_n_minus1)-W0(s_n_minus1_m_plus1))/(4*h))^2);
+            
+            
+            A(s,s) = ((p_m_plus1+p_m_minus1+p_n_plus1+p_n_minus1)/h^2)+q(x,y);
+            A(s,s_m_plus1) = -p_m_plus1/h^2;
+            A(s,s_m_minus1) = -p_m_minus1/h^2;
+            A(s,s_n_plus1) = -p_n_plus1/h^2;
+            A(s,s_n_minus1) = -p_n_minus1/h^2;
+            RHS(s) = 0;
 %             fprintf('Innripunktur n=%.0f , m = %.0f\n',n,m)
             if ~isnan(p_hnit)
                 if m == p_hnit(kj,1) && p_hnit(kj,2) == n && kj<=length(P(:,1))
-                    RHS(s) = f(x,y)+sum(Q(kj)/h^2);
+                    RHS(s) = 0;
                     kj=kj+1;
 %                     fprintf('Sérstöðupunktur - Punktuppspretta x=%.2f , y = %.2f , n=%.0f , m = %.0f\n',x,y,n,m)
                 end
             end
         end
         if  ki<=length(r_hnit(:,1))
-            if m == r_hnit(ki,1) && r_hnit(ki,2) == n 
+            if m == r_hnit(ki,1) && r_hnit(ki,2) == n
                 A(s,:) = 0;
                 A(s,s) = 1;
-                RHS(s) = U(ki);
+                RHS(s) = W0(s);
                 ki = ki+1;
 %                 fprintf('Sérstöðupunktur - FAST GILDI x=%.2f , y = %.2f , n=%.2f , m = %.0f\n',x,y,n,m)
             end
@@ -102,17 +115,17 @@ for n=1:N
 end
 %Finnum lausn
 A_sparse=sparse(A);
-W_list=A_sparse\RHS;   % Thetta er vigur med hitastigum rodudum eins og vid til-
+Wn_list=A_sparse\RHS;   % Thetta er vigur med hitastigum rodudum eins og vid til-
 % greindum ad ofan
-T_grid=zeros(N,M);
+Wn_grid=zeros(N,M);
 for n=1:N
     for m=1:M
         s=m+M*(n-1);   % Numer linu fylkis sem samsvarar m,n
-        T_grid(n,m) = W_list(s); % Setjum inn gildi sem samsvarar
+        Wn_grid(n,m) = Wn_list(s); % Setjum inn gildi sem samsvarar
         % gildi fyrir thrihyrninginn okkar.
     end
 end
-W=T_grid;
+Wn=Wn_grid;
 
 
 
