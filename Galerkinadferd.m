@@ -17,7 +17,7 @@ fx=f(x);
 A=zeros(N,3); 
 b=zeros(N,1); % við fyllum svo jafnt og þétt inni í A og b.
 
-% Byrjum á því að fylla inn í A og b fyrir línur 2 og niður í N-1:
+% Byrjum á því að fylla inn í A og b fyrir línur 2 til N-1:
 A(2:N-1,2) = pm(1:N-2)./h(1:N-2)+pm(2:N-1)./h(2:N-1)+(h(1:N-2).*qm(1:N-2) +h(2:N-1).*qm(2:N-1))/3;
 A(2:N,1) = -pm(1:N-1)./h(1:N-1)+h(1:N-1).*qm(1:N-1)/6;
 A(1:N-1,3) = A(2:N,1);
@@ -43,15 +43,11 @@ end
 % Stingum svo inn punktuppsprettum ef þær eru til staðar, en ef engar uppsprettur eru kallaðar með fallinu, sleppir forritið þessum lið.
 if ~isempty(r)
 m=length(r);
-for j=1:m
-    
+for j=1:m    
     i=max(find(x<=r(j)));
     b(i)= b(i)+Q(j);
-
 end
 end
-
-
 %Notumst svo við forrit tridiagonal_solve sem Ragnar gaf á Uglu til að leysa út fyrir c.
 c=tridiagonal_solve(A,b); 
 plot(x,c)
