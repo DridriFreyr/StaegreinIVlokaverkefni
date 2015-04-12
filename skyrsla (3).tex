@@ -91,13 +91,38 @@ c=tridiagonal_solve(A,b);
 
 \subsection{}
 Rökstyðjið að aðferð Galerkins virki með ósamfellt $p$ eins og lýst er hér að framan. Það eina sem þarf að gera að sýna að hlutheildunin sem liggur t il grundvallar aðferðinni virki í þessu tilfelli þegar $p$ er ósamfellt eins og lýst er hér að framan. 
+\par
 
-\textbf{Lausn:} 
+\textbf{Lausn:} \par
+
+Við getum sýnt fram á virkni Galerkins aðferðarinnar fyrir ósamfellt $p$ með því að skipta bilinu sem heilda á yfir, upp í búta.\par
+Ef við ætlum okkur að beita aðferðinni á bili [a,b] þar sem fall $p$ er ósamfellt í endanlega mörgum innri-punktum $s_{i}$ á bilinu, nægir okkur að beita aðferð Galarkins á búta\par \begin{center}[a,$s_{i}$], [$s_{i}$,$s_{i+1}$],$\cdot \cdot \cdot$, [$s_{n}$,b].\end{center}
+Ljóst er að þegar lagaðar eru saman lausnir fyrir hvern bút, þá munu liðir háðir p($s_{i}$) styttast út hver á móti örðum.\par
+Við getum því notfært okkur þetta og lagt saman heildin fyrir hvert hlutbil til þess að fá nálgunina fyrir allt bilið.
+
+Skoðum tilfellið þar sem $p$ er ósamfellt í einum punkti s á bili [a,b].
+Heildum þá yfir búta [a,s] og [s,b] og fáum:\par
+\begin{center}
+	$\int_{a}^{s}-(p(x)*u{(x)}')dx + \int_{a}^{s}q(x)u(x)dx= \int_{a}^{s}f(x)$ \par
+	og $\int_{s}^{b}-(p(x)*u{(x)}')dx + \int_{s}^{b}q(x)u(x)dx= \int_{s}^{b}f(x)$
+\end{center}
+Ef við leggjum svo heildin saman fáum við:\par
+\begin{center}
+	$(-p(s)u{(s)}'+p(a)u{(a)}')+(-p(b)u{(b)}'+p(s)u{(s)}')+ \int_{a}^{s}q(x)u(x)dx+ \int_{s}^{b}q(x)u(x)dx =\int_{a}^{s}f(x)+\int_{s}^{b}f(x)$
+\end{center}
+Sem gefur svo: 
+\begin{center}
+	$\int_{a}^{b}-(p(x)*u{(x)}')dx + \int_{a}^{b}q(x)u(x)dx= \int_{a}^{b}f(x)$
+\end{center} \par
+Það er því ljóst að punktur $p(s)$ hefur ekki áhrif á niðurstöðun og því virkar Galerkin aðferðin fyrir ósamfellt $p$. 
+En til þess að svo megi vera þarf að gilda að þar sem $p(s_{i})$ er ósamfellt, þá þarf $p(s_{i})*u'(s_{i})$ að vera samfellt og $u'(s_{i})$ ósamfellt.
+
 
 \subsection{}
 Gerið grein fyrir því hvernig punktuppspretturnar eru meðhöndlaðar í forritinu. Sýnið með einni keyrslu hvaða áhrif það hefur á lausn ef punktuppsprettu er bætt við hægri hliðina. 
 
-\textbf{Lausn:} 
+\par
+\textbf{Lausn:} \par
 Við höfum gert ráð fyrir að hægri hliðin $f$ í afleiðujöfnunni sé samfellt. Getum líka bætt við það liðum sem eru margfeldi fasta og Dirac-delta-falls. Slíkir liðir lýsa orkuuppsprettum í stökum punktum.  Dirac-fallið í punktinum $r$ táknum við með $\delta _{r}$ . Eina reiknireglan sem við þurfum að kunna er að 
 
 $\int_{c}^{d}\delta _{r}(x) \varphi (x)dx=\varphi(r)$
@@ -126,7 +151,8 @@ end
 \subsection{}
 Finnið sjálf heppilegt sýnidæmi til þess að prófa hvort forritið virki réttt. Kannið hvort skekkjan í nálguninni er $O(h^2)$, þar sem $h$ táknar billengd í jafnri skiptingu með því að prófa forritið í sýnidæminu með fjölda bila $N$=2,4,8....
 
-\textbf{Lausn:} 
+\par
+\textbf{Lausn:}\par 
 Heppilegt sýnidæmi sem við fundum er í heimadæmum 8.1. Byrjum á því að skilgreina breyturnar. 
 \begin{verbatim}
 p = @(x) x;
@@ -184,7 +210,8 @@ ans =
 
 Skrifið $\verb|matlab|$-forrit sem notar forritið ykkar$ \verb|Galerkinadferd| $ úr síðasta lið til þess að finna nálgun á lausn þessa verkefnis. Notið fjögurra punkta skiptingu  $x_{0}=a, x_{1}=s, x_{2}=r$ og $x_{3}=b$.  Framkvæmið fastapunktsítrekunina þar til endurbítin í ítrekuninni er innan við 1\%.  Markmiðið er að þið prófið ykkur áfram með að stilla gildið á Q þannig að út komi hitastigið $u(b)\approx 200°C$. (Hámarksafllið í venulegu straujárni er 1200-1500W.) Þegar þetta gildi á Q er fundið eigði þi ða teikna upp hitastigið sem fall af $x$. 
 
-\textbf{Lausn:}
+\par
+\textbf{Lausn:}\par
 Byrjum á því að skilgreina allar breyturnar.
 \begin{verbatim}
 h1 = 5;
@@ -240,7 +267,8 @@ skekkja = 1;
 \subsection{}
 Leysið verkefnið aftur með gildið á $Q$ sem þið fundið, en sleppið geislunarliðnum.  ÞEtta þýðir að þið eigið að setja $\epsilon = 0$. Hver er munurinn á lausnunum? Er nauðsynlegt að taka tillit til geislunarliðarins.  
 
-\textbf{Lausn:}
+\par
+\textbf{Lausn:}\par
 
 við keyrum  nákvæmlega sama í gegn í Matlab nema við breytum einni breytu þannig að \verb|e=0| þá sjáum við að myndin breytist og hitastigið skekkist um sirka 8°C
 
@@ -267,7 +295,8 @@ Nú skulum við skoða myndina.
 \subsection{}
 Útskýrið hvað gerist ef tekin er fínni skiptinn
 
-\textbf{Lausn:}
+\par
+\textbf{Lausn:}\par
 
 Ef tekin er fínni skipting þá koma gildi sem eru einfaldlega nær 200°C.  
 
@@ -278,7 +307,9 @@ Ef tekin er fínni skipting þá koma gildi sem eru einfaldlega nær 200°C.
 
 Útfæra Dirichletverkfni í  \verb|matlab|. 
 
+\par
 \textbf{Lausn:}
+\par
 \begin{verbatim}
 function [W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,P,Q,R,U,h)
 %Author: Andri Freyr Thorgeirsson, Erna Gudrun Thorsteinsdottir og
@@ -399,7 +430,9 @@ W=T_grid;
 \end{verbatim}
 \subsection{}
 Útskýrið hvers vegna uppsprettuliðirnnir eru meðhöndlaðir með því að setja $b_{j} = f(x_{j},y_{k})+h^{-2}$ ef $(x_{j},y_{j})$ er sá punktur netsins sem næstur er $P_s$.  
-\textbf{Lausn:}
+
+\par
+\textbf{Lausn:}\par
 Við erum með net með uppsprettupunkti.  En til þess að geta fundið hann þá þurfum við að vita fyrirframstaðsetingu á uppsprettupunktinum. 
 Það gerum við með eftirfarandi.
 við vitum að  
@@ -413,7 +446,9 @@ $\int \int \delta_{Ps}(x,y)dA=1$
  $b_i= f_i+\frac{Q_s]}{h^2}$
 \subsection{}
 Þið þurfið að sannfæra ykkur um forritið reikni rétt.  Tökum t.d. fallið $u(x,y)=x^2-y^2$ veljið D=[-1,1]x[-1,1], og $\gamma(x,y)=x^2-y^2$ á öllum jaðrinum, þá eigið þið að fá nálgunarfall sem er nánast eins og rétta lausnin.
-\textbf{Lausn:}
+
+\par
+\textbf{Lausn:}\par
 byrjum á því að skilgreina breyturnar okkar. 
 \begin{verbatim}
 a=-1;
@@ -484,7 +519,8 @@ $
  
  Setjið teikningu af grafi lausnarinnar í skýrsluna. 
  
- \textbf{Lausn:}
+ \par
+ \textbf{Lausn:}\par
  
  Byrjum á því að skilgreina breyturnar.
  \begin{verbatim}
@@ -531,7 +567,8 @@ Sjáum að myndin líkist kirkjunni í Kópavogi.
  \subsection{}
  Líkið eftir Hróarskeldutjaldinu. Útskýrið hvaða formúlur þið notað og setjið myndí skýrsluna. 
  
- \textbf{Lausn:}
+ \par
+ \textbf{Lausn:}\par
  
  Byrjum á því að skilgreina eftirfarandi breytur:
  \begin{verbatim}
@@ -581,7 +618,8 @@ Sjáum að myndin líkist kirkjunni í Kópavogi.
  \subsection{}
  Hannið nýtt tjald til þess að setja upp við Arnarhól á menningarnótt í Reykjavík. Útskýrið hönnunina og setjið mynd í skýrsluna.
  
- \textbf{Lausn:}
+ \par
+ \textbf{Lausn:}\par
  
  
  
@@ -590,7 +628,8 @@ Sjáum að myndin líkist kirkjunni í Kópavogi.
 \subsection{}
 $(x,y)= \sqrt{\cosh (x)^{2}-y^{2}}$  uppfyllir hlutafleiðujöfnuna fyrir lágmarksflöt. Notið það á rétthyrningnum D = [-1,1] * [-1,1] til þess að kanna hvort forritið reiknar.
 
-\textbf{Lausn:}
+\par
+\textbf{Lausn:}\par
 Byrjum á því að skilgreina allar breytur. 
 \begin{verbatim}
 a=0;
@@ -658,6 +697,8 @@ næst plottum við myndina.
 \subsection{}
 Gerið grein fyrir stærð netsins sem þið notið, hvaða þolmörk þið notið til þess að stöðva ítrekunina og hversu langan tíma keyrslan tók á tölvunni ykkar.
 
+ \par
+ \textbf{Lausn:}\par
 Stærð netsins hjá okkur er W1=101x101.  Þolmörkin sjáum við í eftirfarandi kóða
 \begin{verbatim}
 while(error > eps && k < kmax)

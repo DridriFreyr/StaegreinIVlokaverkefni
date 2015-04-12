@@ -1,23 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.20)  11 APR 2015 17:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.10)  12 APR 2015 17:01
 entering extended mode
 **skyrsla*(3).tex
-
-("C:\Users\default.idea-PC\Documents\Vor2015\Stægreining IVB\lokóverkó\skyrs
-la (3).tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).tex"
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,19 +21,19 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -194,7 +183,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -225,7 +214,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -249,20 +238,20 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.sty"
+Package: babel 2014/03/24 3.9k The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
-Language: english 2005/03/30 v3.3o English support from the babel system
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.def"
+File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
@@ -270,7 +259,7 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\icelandic.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel-icelandic\icelandic.ldf"
 Language: icelandic 2005/03/30 v1.1g Icelandic support from the babel system
 Package babel Info: Making " an active character on input line 70.
 \pl@left=\dimen104
@@ -278,17 +267,17 @@ Package babel Info: Making " an active character on input line 70.
 \pl@right=\dimen106
 \pl@temp=\dimen107
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.sty"
 Package: t1enc 1994/06/01 Standard LaTeX package
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -329,31 +318,31 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen108
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count90
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -365,7 +354,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -390,36 +379,36 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen112
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen113
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count98
@@ -460,49 +449,48 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\mdwlist.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdwtools\mdwlist.sty"
 Package: mdwlist 1996/05/02 1.1 Various list-related things
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count110
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-("C:\Users\default.idea-PC\Documents\Vor2015\Stægreining IVB\lokóverkó\mcode
-.sty"
+(C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\mcode.sty
 -- Package: `mcode' 2.4 <2013/11/05> --
 Package: mcode 2013/11/05 2.4
  - settings optimized for display (colour formating)
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -516,7 +504,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count111
 \lst@gtempboxa=\box28
 \lst@token=\toks22
@@ -530,18 +518,18 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 \lst@lineno=\count116
 \lst@maxwidth=\dimen126
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count117
 \lst@skipnumbers=\count118
 \lst@framebox=\box29
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2013/08/26 1.5b listings configuration
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -556,12 +544,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -696,11 +684,10 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-("C:\Users\default.idea-PC\Documents\Vor2015\Stægreining IVB\lokóverkó\skyrs
-la (3).aux"
+("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).aux"
 
 LaTeX Warning: Label `fig:awesome_image12' multiply defined.
 
@@ -724,17 +711,17 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 35.
 \AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 35.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count119
@@ -743,12 +730,11 @@ LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
 LaTeX Info: Redefining \nameref on input line 35.
 
-("C:\Users\default.idea-PC\Documents\Vor2015\Stægreining IVB\lokóverkó\skyrs
-la (3).out")
-("C:\Users\default.idea-PC\Documents\Vor2015\Stægreining IVB\lokóverkó\skyrs
-la (3).out")
+("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).out")
+("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).out")
 \@outlinefile=\write3
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen127
@@ -764,17 +750,17 @@ la (3).out")
 )
 \c@lstlisting=\count126
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 41.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \hbox (188.86198pt too wide) in paragraph at lines 90--90
@@ -802,412 +788,405 @@ ta(2));[]
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-! Double subscript.
-l.108 $\int_{\alpha}^{\beta}\delta_{x}_
-                                       {k}(x)\varphi_{j}(x)dx = \varphi_{j}(...
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-[2]
-Overfull \hbox (115.30316pt too wide) in paragraph at lines 154--154
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+Overfull \hbox (115.30316pt too wide) in paragraph at lines 180--180
 []\T1/cmtt/m/n/10.95 >> galerkinadferd_2(@(x)x,@(x)(1./x),@(x)-2+0.*x,[1:1/3:2]
 ,[0,1],[-1,-2],[0,-2],2,0)[] 
  []
 
-<nalgun1_4.png, id=106, 421.575pt x 316.18124pt>
+<nalgun1_4.png, id=113, 421.575pt x 316.18124pt>
 File: nalgun1_4.png Graphic file (type png)
  <use nalgun1_4.png>
-Package pdftex.def Info: nalgun1_4.png used on input line 166.
+Package pdftex.def Info: nalgun1_4.png used on input line 192.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<nalgun2_4.png, id=107, 421.575pt x 316.18124pt>
+<nalgun2_4.png, id=114, 421.575pt x 316.18124pt>
 File: nalgun2_4.png Graphic file (type png)
  <use nalgun2_4.png>
-Package pdftex.def Info: nalgun2_4.png used on input line 175.
+Package pdftex.def Info: nalgun2_4.png used on input line 201.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 185.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 211.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 185.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 211.
 
 Missing character: There is no � in font cmr10!
-[3] [4 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó
-/nalgun1_4.png (PNG copy)> <C:/Users/default.idea-PC/Documents/Vor2015/Stægrei
-ning IVB/lokóverkó/nalgun2_4.png (PNG copy)>] [5]
-<2_2_e_0_2.png, id=123, 421.575pt x 316.18124pt>
+[4 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/nalgun1_4.png (PNG
+ copy)>] [5 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/nalgun2_4
+.png (PNG copy)>] <2_2_e_0_2.png, id=125, 421.575pt x 316.18124pt>
 File: 2_2_e_0_2.png Graphic file (type png)
- <use 2_2_e_0_2.png>
-Package pdftex.def Info: 2_2_e_0_2.png used on input line 234.
-(pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
- [6 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/2_
-2_e_0_2.png (PNG copy)>] <2_2_e_0.png, id=130, 421.575pt x 316.18124pt>
-File: 2_2_e_0.png Graphic file (type png)
- <use 2_2_e_0.png>
-Package pdftex.def Info: 2_2_e_0.png used on input line 260.
+
+<use 2_2_e_0_2.png>
+Package pdftex.def Info: 2_2_e_0_2.png used on input line 261.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
-[7 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/2_2
-_e_0.png (PNG copy)>]
-Overfull \hbox (19.11086pt too wide) in paragraph at lines 399--399
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6] <2_2_e_0.png, id=131, 421.575pt x 316.18124pt>
+File: 2_2_e_0.png Graphic file (type png)
+ <use 2_2_e_0.png>
+Package pdftex.def Info: 2_2_e_0.png used on input line 288.
+(pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (19.11086pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 function [W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,P
 ,Q,R,U,h)[] 
  []
 
-
-Overfull \hbox (13.45248pt too wide) in paragraph at lines 399--399
+[7 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/2_2_e_0_2.png (PNG
+ copy)>]
+Overfull \hbox (13.45248pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 %Author: Andri Freyr Thorgeirsson, Erna Gudrun Thorsteinsd
 ottir og[] 
  []
 
 
-Overfull \hbox (30.4276pt too wide) in paragraph at lines 399--399
+Overfull \hbox (30.4276pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 A=zeros(M*N,M*N);       % Fylkid okkar er jafn stort og fj
 oldi punkta[] 
  []
 
 
-Overfull \hbox (75.69456pt too wide) in paragraph at lines 399--399
+Overfull \hbox (75.69456pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 RHS=zeros(M*N,1);       % Haegri hlid hefur somu staerd og
  fylkid en er vigur[] 
  []
 
-
-Overfull \hbox (103.98642pt too wide) in paragraph at lines 399--399
+[8 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/2_2_e_0.png (PNG c
+opy)>]
+Overfull \hbox (103.98642pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 % Vid kjosum ad rada T_m,n thar sem fyrst er n=1 o
 g m haekkar fra 1 til M,[] 
  []
 
 
-Overfull \hbox (120.96153pt too wide) in paragraph at lines 399--399
+Overfull \hbox (120.96153pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 % Thvi naest haekkum vid n i 2 og haekkum m fra 1 
 til M, haekkum tha n i 3 og[] 
  []
 
-[8]
-Overfull \hbox (36.08597pt too wide) in paragraph at lines 399--399
+
+Overfull \hbox (36.08597pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 % haekkum m fra 1 til M og svo framvegis thar til 
 m is jafnt M[] 
  []
 
 
-Overfull \hbox (47.40271pt too wide) in paragraph at lines 399--399
+Overfull \hbox (47.40271pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 s=m+M*(n-1);               % Numer linu fylkis sem
  samsvarar m,n[] 
  []
 
 
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 399--399
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 s_m_plus1=m+1+M*(n-1);     % Numer linu fylkis sem
  samsvarar m+1,n[] 
  []
 
 
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 399--399
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 s_m_minus1=m-1+M*(n-1);    % Numer linu fylkis sem
  samsvarar m-1,n[] 
  []
 
 
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 399--399
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 s_n_plus1=m+M*(n+1-1);     % Numer linu fylkis sem
  samsvarar m,n+1[] 
  []
 
 
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 399--399
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 s_n_minus1=m+M*(n-1-1);    % Numer linu fylkis sem
  samsvarar m,n-1[] 
  []
 
 
-Overfull \hbox (2.13574pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.13574pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 % Skilyrdi: (n==1) -> Viljum skoda nedstu linuna k
 assans[] 
  []
 
-
-Overfull \hbox (19.11086pt too wide) in paragraph at lines 399--399
+[9]
+Overfull \hbox (19.11086pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 % Skilyrdi: (m>n) -> Viljum lenda haegra meginn vi
 d vinstri[] 
  []
 
 
-Overfull \hbox (41.74434pt too wide) in paragraph at lines 399--399
+Overfull \hbox (41.74434pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 % Skilyrdi: (m<M-n+1) -> Viljum lenda vinstra megi
 nn vid haegri[] 
  []
 
 
-Overfull \hbox (160.57013pt too wide) in paragraph at lines 399--399
+Overfull \hbox (160.57013pt too wide) in paragraph at lines 430--430
 []            \T1/cmtt/m/n/10.95 A(s,s) = ((p(x_half+h,y)+p(x_half-h,y)+p(x,y_h
 alf-h)+p(x,y_half+h))/h^2)+q(x,y);[] 
  []
 
 
-Overfull \hbox (87.0113pt too wide) in paragraph at lines 399--399
+Overfull \hbox (87.0113pt too wide) in paragraph at lines 430--430
 []                \T1/cmtt/m/n/10.95 if m == p_hnit(kj,1) && p_hnit(kj,2) == n 
 && kj<=length(P(:,1))[] 
  []
 
 
-Overfull \hbox (273.73755pt too wide) in paragraph at lines 399--399
+Overfull \hbox (273.73755pt too wide) in paragraph at lines 430--430
 []                    \T1/cmtt/m/n/10.95 fprintf('S�rst��upunktur - Punktuppspr
 etta x=%.2f , y = %.2f , n=%.0f , m = %.0f\n',x,y,n,m)[] 
  []
 
-[9]
-Overfull \hbox (222.81221pt too wide) in paragraph at lines 399--399
+
+Overfull \hbox (222.81221pt too wide) in paragraph at lines 430--430
 []                \T1/cmtt/m/n/10.95 fprintf('S�rst��upunktur - FAST GILDI x=%.
 2f , y = %.2f , n=%.2f , m = %.0f\n',x,y,n,m)[] 
  []
 
 
-Overfull \hbox (92.66968pt too wide) in paragraph at lines 399--399
+Overfull \hbox (92.66968pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 W_list=A_sparse\RHS;   % Thetta er vigur med hitastigum ro
 dudum eins og vid til-[] 
  []
 
 
-Overfull \hbox (7.79411pt too wide) in paragraph at lines 399--399
+Overfull \hbox (7.79411pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 T_grid(n,m) = W_list(s); % Setjum inn gildi sem sa
 msvarar[] 
  []
 
 [10]
-Overfull \hbox (64.37782pt too wide) in paragraph at lines 434--434
+Overfull \hbox (64.37782pt too wide) in paragraph at lines 469--469
 []\T1/cmtt/m/n/10.95 >> [W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,[1,1],[
 0],[1,0],[1],0.1)[] 
  []
 
 
-Overfull \hbox (36.08597pt too wide) in paragraph at lines 434--434
+Overfull \hbox (36.08597pt too wide) in paragraph at lines 469--469
 []\T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W(:,1))),linspace(c,d,length(W
 (1,:))),W');[] 
  []
 
-<sodulmynd1.png, id=152, 421.575pt x 316.18124pt>
+<sodulmynd1.png, id=151, 421.575pt x 316.18124pt>
 File: sodulmynd1.png Graphic file (type png)
  <use sodulmynd1.png>
-Package pdftex.def Info: sodulmynd1.png used on input line 437.
+Package pdftex.def Info: sodulmynd1.png used on input line 472.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
- [11 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/s
-odulmynd1.png (PNG copy)>]
-Overfull \hbox (53.06108pt too wide) in paragraph at lines 445--445
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+Overfull \hbox (53.06108pt too wide) in paragraph at lines 480--480
 []\T1/cmtt/m/n/10.95 >> contour(linspace(a,b,length(W(:,1))),linspace(c,d,lengt
 h(W(1,:))),W');[] 
  []
 
-<sodulmynd_contour.png, id=158, 421.575pt x 316.18124pt>
+<sodulmynd_contour.png, id=157, 421.575pt x 316.18124pt>
 File: sodulmynd_contour.png Graphic file (type png)
 
 <use sodulmynd_contour.png>
-Package pdftex.def Info: sodulmynd_contour.png used on input line 448.
+Package pdftex.def Info: sodulmynd_contour.png used on input line 483.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
- [12 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/s
-odulmynd_contour.png (PNG copy)>]
-Overfull \hbox (19.11086pt too wide) in paragraph at lines 505--505
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/sodulmynd1.png (P
+NG copy)>]
+Overfull \hbox (19.11086pt too wide) in paragraph at lines 541--541
 [] \T1/cmtt/m/n/10.95 >>[W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,[],[],[
 ],[],0.1)[] 
  []
 
 
-Overfull \hbox (41.74434pt too wide) in paragraph at lines 505--505
+Overfull \hbox (41.74434pt too wide) in paragraph at lines 541--541
 [] \T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W(:,1))),linspace(c,d,length(
 W(1,:))),W');[] 
  []
 
-<gudshusid.png, id=164, 421.575pt x 316.18124pt>
+[13 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/sodulmynd_contour
+.png (PNG copy)>] <gudshusid.png, id=169, 421.575pt x 316.18124pt>
 File: gudshusid.png Graphic file (type png)
- <use gudshusid.png>
-Package pdftex.def Info: gudshusid.png used on input line 509.
+
+<use gudshusid.png>
+Package pdftex.def Info: gudshusid.png used on input line 545.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 518--518
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 554--554
 [] \T1/cmtt/m/n/10.95 >> contour(linspace(a,b,length(W(:,1))),linspace(c,d,leng
 th(W(1,:))),W');[] 
  []
 
-<gudshusid_contour.png, id=165, 421.575pt x 316.18124pt>
+<gudshusid_contour.png, id=170, 421.575pt x 316.18124pt>
 File: gudshusid_contour.png Graphic file (type png)
 
 <use gudshusid_contour.png>
-Package pdftex.def Info: gudshusid_contour.png used on input line 524.
+Package pdftex.def Info: gudshusid_contour.png used on input line 560.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverk
-ó/gudshusid.png (PNG copy)> <C:/Users/default.idea-PC/Documents/Vor2015/Stægr
-eining IVB/lokóverkó/gudshusid_contour.png (PNG copy)>]
-Overfull \hbox (149.25339pt too wide) in paragraph at lines 553--553
+[14 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/gudshusid.png (PN
+G copy)>]
+Overfull \hbox (149.25339pt too wide) in paragraph at lines 590--590
 [] \T1/cmtt/m/n/10.95 >>[W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,[],[0],
 [0,0;-0.9,1;0.9,1],[1,1,1],0.1);[] 
  []
 
 
-Overfull \hbox (41.74434pt too wide) in paragraph at lines 553--553
+Overfull \hbox (41.74434pt too wide) in paragraph at lines 590--590
 [] \T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W(:,1))),linspace(c,d,length(
 W(1,:))),W');[] 
  []
 
-
-Overfull \hbox (94.28288pt too wide) in paragraph at lines 556--557
+[15 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/gudshusid_contour
+.png (PNG copy)>]
+Overfull \hbox (94.28288pt too wide) in paragraph at lines 593--594
 []\T1/cmr/m/n/10.95 Vi� v�ld-um a� �ar sem punktupp-sprett-urn-ar myndu byrja v
 �ru hnit-in []\T1/cmtt/m/n/10.95 [0,0],[-0.9,1],[0.9,1]
  []
 
-<hroarskelda_hlid.png, id=177, 1203.7472pt x 589.4522pt>
+<hroarskelda_hlid.png, id=181, 1203.7472pt x 589.4522pt>
 File: hroarskelda_hlid.png Graphic file (type png)
 
 <use hroarskelda_hlid.png>
-Package pdftex.def Info: hroarskelda_hlid.png used on input line 560.
+Package pdftex.def Info: hroarskelda_hlid.png used on input line 597.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
 
-<hroarskelda_top.png, id=178, 1203.7472pt x 589.4522pt>
+<hroarskelda_top.png, id=182, 1203.7472pt x 589.4522pt>
 File: hroarskelda_top.png Graphic file (type png)
 
 <use hroarskelda_top.png>
-Package pdftex.def Info: hroarskelda_top.png used on input line 567.
+Package pdftex.def Info: hroarskelda_top.png used on input line 604.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<hroarskelda_party.png, id=179, 1203.7472pt x 589.4522pt>
+<hroarskelda_party.png, id=183, 1203.7472pt x 589.4522pt>
 File: hroarskelda_party.png Graphic file (type png)
 
 <use hroarskelda_party.png>
-Package pdftex.def Info: hroarskelda_party.png used on input line 574.
+Package pdftex.def Info: hroarskelda_party.png used on input line 611.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/hr
-oarskelda_hlid.png (PNG copy)>] [16 <C:/Users/default.idea-PC/Documents/Vor2015
-/Stægreining IVB/lokóverkó/hroarskelda_top.png (PNG copy)> <C:/Users/default
-.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/hroarskelda_party.png (
-PNG copy)>]
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 610--610
+[16 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/hroarskelda_hlid.
+png (PNG copy)> <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/hroar
+skelda_top.png (PNG copy)>]
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 649--649
 []\T1/cmtt/m/n/10.95 [W_dummy,A,RSH] = Dirichletverkefni(a,b,c,d,p,q,f,gamma,[]
 ,[],[],[],0.02);[] 
  []
 
-
-Overfull \hbox (53.06108pt too wide) in paragraph at lines 622--622
+[17 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/hroarskelda_party
+.png (PNG copy)>]
+Overfull \hbox (53.06108pt too wide) in paragraph at lines 661--661
 []\T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W1(:,1))),linspace(c,d,length(
 W1(1,:))),W1');[] 
  []
 
-<lagmarksflotur_hlid.png, id=191, 421.575pt x 316.18124pt>
+<lagmarksflotur_hlid.png, id=195, 421.575pt x 316.18124pt>
 File: lagmarksflotur_hlid.png Graphic file (type png)
 
 <use lagmarksflotur_hlid.png>
-Package pdftex.def Info: lagmarksflotur_hlid.png used on input line 627.
+Package pdftex.def Info: lagmarksflotur_hlid.png used on input line 666.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<lagmarksflotur_framan.png, id=192, 421.575pt x 316.18124pt>
+<lagmarksflotur_framan.png, id=196, 421.575pt x 316.18124pt>
 File: lagmarksflotur_framan.png Graphic file (type png)
 
 <use lagmarksflotur_framan.png>
-Package pdftex.def Info: lagmarksflotur_framan.png used on input line 634.
+Package pdftex.def Info: lagmarksflotur_framan.png used on input line 673.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<lagmarksflotur.png, id=193, 421.575pt x 316.18124pt>
+<lagmarksflotur.png, id=197, 421.575pt x 316.18124pt>
 File: lagmarksflotur.png Graphic file (type png)
  <use lagmarksflotur.png>
-Package pdftex.def Info: lagmarksflotur.png used on input line 641.
+Package pdftex.def Info: lagmarksflotur.png used on input line 680.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (81.35294pt too wide) in paragraph at lines 648--648
+Overfull \hbox (81.35294pt too wide) in paragraph at lines 687--687
 []  \T1/cmtt/m/n/10.95 >> contour(linspace(a,b,length(W1(:,1))),linspace(c,d,le
 ngth(W1(1,:))),W1');[] 
  []
 
-<lagmarksflotur_contour.png, id=194, 421.575pt x 316.18124pt>
+<lagmarksflotur_contour.png, id=198, 421.575pt x 316.18124pt>
 File: lagmarksflotur_contour.png Graphic file (type png)
 
 <use lagmarksflotur_contour.png>
-Package pdftex.def Info: lagmarksflotur_contour.png used on input line 652.
+Package pdftex.def Info: lagmarksflotur_contour.png used on input line 691.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] [18 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverk
-ó/lagmarksflotur_hlid.png (PNG copy)> <C:/Users/default.idea-PC/Documents/Vor2
-015/Stægreining IVB/lokóverkó/lagmarksflotur_framan.png (PNG copy)>]
-Overfull \vbox (12.93108pt too high) has occurred while \output is active []
+[18 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/lagmarksflotur_hl
+id.png (PNG copy)>] [19 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkef
+ni/lagmarksflotur_framan.png (PNG copy)> <C:/Users/Dridri/Documents/GitHub/Stae
+greinIVlokaverkefni/lagmarksflotur.png (PNG copy)>] [20 <C:/Users/Dridri/Docume
+nts/GitHub/StaegreinIVlokaverkefni/lagmarksflotur_contour.png (PNG copy)>]
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 724.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 724.
 
-
-[19 <C:/Users/default.idea-PC/Documents/Vor2015/Stægreining IVB/lokóverkó/la
-gmarksflotur.png (PNG copy)> <C:/Users/default.idea-PC/Documents/Vor2015/Stægr
-eining IVB/lokóverkó/lagmarksflotur_contour.png (PNG copy)>] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 683.
- [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 683.
-
-("C:\Users\default.idea-PC\Documents\Vor2015\Stægreining IVB\lokóverkó\skyrs
-la (3).aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 683.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 683.
+("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 724.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 724.
 Package rerunfilecheck Info: File `skyrsla*(3).out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 683.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 724.
  ) 
 Here is how much of TeX's memory you used:
- 8962 strings out of 493921
- 126064 string characters out of 3147252
- 249950 words of memory out of 3000000
- 12071 multiletter control sequences out of 15000+200000
+ 9073 strings out of 493706
+ 128295 string characters out of 3142162
+ 256309 words of memory out of 3000000
+ 12204 multiletter control sequences out of 15000+200000
  13578 words of font info for 40 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
+ 1025 hyphenation exceptions out of 8191
  33i,13n,42p,642b,457s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Pr
-ogram Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/cm-super/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-s
-uper/sftt1095.pfb>
-Output written on "skyrsla (3).pdf" (21 pages, 515153 bytes).
+ <C:\Users\Dridri\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\tcrm1095.pk> <C:\Users\Dridri\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecbx1095.pk> <C:\Users\Dridri\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ectt1095.pk> <C:\Users\Dridri\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Dridri\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Dridri\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "skyrsla (3).pdf" (22 pages, 473097 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 501 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
