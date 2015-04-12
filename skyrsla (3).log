@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.10)  12 APR 2015 21:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.10)  12 APR 2015 21:57
 entering extended mode
 **skyrsla*(3).tex
 ("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).tex"
@@ -800,15 +800,6 @@ File: latin1.def 2014/04/30 v1.2b Input encoding file
 File: latin1.def 2014/04/30 v1.2b Input encoding file
 )
 (C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\daemi1_3.m
-Overfull \hbox (40.22807pt too wide) in paragraph at lines 4--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
-
-Overfull \hbox (45.47679pt too wide) in paragraph at lines 7--8
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
- []
-
 
 ! Package xcolor Error: Undefined color `mauve'.
 
@@ -816,12 +807,13 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 plot(X,c,'
-              b') %Plottum upp nálgun án punktuppsprettu bláa.
+l.19 plot(x,c,'
+               b') %Plottum upp nálgun án punktuppsprettu bláa.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 19.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
 File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -832,8 +824,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 plot(X,c,'b'
-                ) %Plottum upp nálgun án punktuppsprettu bláa.
+l.19 plot(x,c,'b'
+                 ) %Plottum upp nálgun án punktuppsprettu bláa.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -844,8 +836,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 plot(X,c,'b'
-                ) %Plottum upp nálgun án punktuppsprettu bláa.
+l.19 plot(x,c,'b'
+                 ) %Plottum upp nálgun án punktuppsprettu bláa.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -856,7 +848,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 plot(X,cc,'
+l.21 plot(x,cc,'
                 g')%Plottum upp nálgun með punktuppsprettu græna.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -868,7 +860,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 plot(X,cc,'g'
+l.21 plot(x,cc,'g'
                   )%Plottum upp nálgun með punktuppsprettu græna.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -880,7 +872,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 plot(X,cc,'g'
+l.21 plot(x,cc,'g'
                   )%Plottum upp nálgun með punktuppsprettu græna.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -903,13 +895,13 @@ Overfull \hbox (115.30316pt too wide) in paragraph at lines 158--158
 ,[0,1],[-1,-2],[0,-2],2,0)[] 
  []
 
-<nalgun1_4.png, id=202, 421.575pt x 316.18124pt>
+<nalgun1_4.png, id=213, 421.575pt x 316.18124pt>
 File: nalgun1_4.png Graphic file (type png)
  <use nalgun1_4.png>
 Package pdftex.def Info: nalgun1_4.png used on input line 170.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
-<nalgun2_4.png, id=203, 421.575pt x 316.18124pt>
+<nalgun2_4.png, id=214, 421.575pt x 316.18124pt>
 File: nalgun2_4.png Graphic file (type png)
  <use nalgun2_4.png>
 Package pdftex.def Info: nalgun2_4.png used on input line 179.
@@ -939,7 +931,7 @@ e{figure.3}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.217 \end{verbatim}
                      <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/
-nalgun2_4.png (PNG copy)>] <2_2_e_0_2.png, id=215, 421.575pt x 316.18124pt>
+nalgun2_4.png (PNG copy)>] <2_2_e_0_2.png, id=226, 421.575pt x 316.18124pt>
 File: 2_2_e_0_2.png Graphic file (type png)
 
 <use 2_2_e_0_2.png>
@@ -949,7 +941,7 @@ Package pdftex.def Info: 2_2_e_0_2.png used on input line 239.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] <2_2_e_0.png, id=221, 421.575pt x 316.18124pt>
+[8] <2_2_e_0.png, id=232, 421.575pt x 316.18124pt>
 File: 2_2_e_0.png Graphic file (type png)
  <use 2_2_e_0.png>
 Package pdftex.def Info: 2_2_e_0.png used on input line 266.
@@ -1110,7 +1102,7 @@ Overfull \hbox (36.08597pt too wide) in paragraph at lines 447--447
 (1,:))),W');[] 
  []
 
-[13] <sodulmynd1.png, id=246, 421.575pt x 316.18124pt>
+[13] <sodulmynd1.png, id=257, 421.575pt x 316.18124pt>
 File: sodulmynd1.png Graphic file (type png)
  <use sodulmynd1.png>
 Package pdftex.def Info: sodulmynd1.png used on input line 450.
@@ -1129,7 +1121,7 @@ Overfull \hbox (53.06108pt too wide) in paragraph at lines 458--458
 h(W(1,:))),W');[] 
  []
 
-<sodulmynd_contour.png, id=252, 421.575pt x 316.18124pt>
+<sodulmynd_contour.png, id=263, 421.575pt x 316.18124pt>
 File: sodulmynd_contour.png Graphic file (type png)
 
 <use sodulmynd_contour.png>
@@ -1154,7 +1146,7 @@ Overfull \hbox (41.74434pt too wide) in paragraph at lines 518--518
 W(1,:))),W');[] 
  []
 
-<gudshusid.png, id=258, 421.575pt x 316.18124pt>
+<gudshusid.png, id=269, 421.575pt x 316.18124pt>
 File: gudshusid.png Graphic file (type png)
  <use gudshusid.png>
 Package pdftex.def Info: gudshusid.png used on input line 522.
@@ -1169,7 +1161,7 @@ Overfull \hbox (58.71945pt too wide) in paragraph at lines 531--531
 th(W(1,:))),W');[] 
  []
 
-<gudshusid_contour.png, id=259, 421.575pt x 316.18124pt>
+<gudshusid_contour.png, id=270, 421.575pt x 316.18124pt>
 File: gudshusid_contour.png Graphic file (type png)
 
 <use gudshusid_contour.png>
@@ -1211,14 +1203,14 @@ Overfull \hbox (94.28288pt too wide) in paragraph at lines 570--571
 æru hnit-in []\T1/cmtt/m/n/10.95 [0,0],[-0.9,1],[0.9,1]
  []
 
-<hroarskelda_hlid.png, id=270, 1203.7472pt x 589.4522pt>
+<hroarskelda_hlid.png, id=281, 1203.7472pt x 589.4522pt>
 File: hroarskelda_hlid.png Graphic file (type png)
 
 <use hroarskelda_hlid.png>
 Package pdftex.def Info: hroarskelda_hlid.png used on input line 574.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
 
-<hroarskelda_top.png, id=271, 1203.7472pt x 589.4522pt>
+<hroarskelda_top.png, id=282, 1203.7472pt x 589.4522pt>
 File: hroarskelda_top.png Graphic file (type png)
 
 <use hroarskelda_top.png>
@@ -1228,7 +1220,7 @@ Package pdftex.def Info: hroarskelda_top.png used on input line 581.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<hroarskelda_party.png, id=272, 1203.7472pt x 589.4522pt>
+<hroarskelda_party.png, id=283, 1203.7472pt x 589.4522pt>
 File: hroarskelda_party.png Graphic file (type png)
 
 <use hroarskelda_party.png>
@@ -1271,7 +1263,7 @@ Overfull \hbox (53.06108pt too wide) in paragraph at lines 638--638
 W1(1,:))),W1');[] 
  []
 
-<lagmarksflotur_hlid.png, id=285, 421.575pt x 316.18124pt>
+<lagmarksflotur_hlid.png, id=296, 421.575pt x 316.18124pt>
 File: lagmarksflotur_hlid.png Graphic file (type png)
 
 <use lagmarksflotur_hlid.png>
@@ -1281,7 +1273,7 @@ Package pdftex.def Info: lagmarksflotur_hlid.png used on input line 643.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<lagmarksflotur_framan.png, id=286, 421.575pt x 316.18124pt>
+<lagmarksflotur_framan.png, id=297, 421.575pt x 316.18124pt>
 File: lagmarksflotur_framan.png Graphic file (type png)
 
 <use lagmarksflotur_framan.png>
@@ -1291,7 +1283,7 @@ Package pdftex.def Info: lagmarksflotur_framan.png used on input line 650.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<lagmarksflotur.png, id=287, 421.575pt x 316.18124pt>
+<lagmarksflotur.png, id=298, 421.575pt x 316.18124pt>
 File: lagmarksflotur.png Graphic file (type png)
  <use lagmarksflotur.png>
 Package pdftex.def Info: lagmarksflotur.png used on input line 657.
@@ -1306,7 +1298,7 @@ Overfull \hbox (81.35294pt too wide) in paragraph at lines 664--664
 ngth(W1(1,:))),W1');[] 
  []
 
-<lagmarksflotur_contour.png, id=288, 421.575pt x 316.18124pt>
+<lagmarksflotur_contour.png, id=299, 421.575pt x 316.18124pt>
 File: lagmarksflotur_contour.png Graphic file (type png)
 
 <use lagmarksflotur_contour.png>
@@ -1365,8 +1357,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 701.
  ) 
 Here is how much of TeX's memory you used:
- 10109 strings out of 493706
- 140159 string characters out of 3142162
+ 10120 strings out of 493706
+ 140324 string characters out of 3142162
  311423 words of memory out of 3000000
  13132 multiletter control sequences out of 15000+200000
  15717 words of font info for 44 fonts, out of 3000000 for 9000
@@ -1391,9 +1383,9 @@ mr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "skyrsla (3).pdf" (24 pages, 520098 bytes).
+Output written on "skyrsla (3).pdf" (24 pages, 521315 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
+ 715 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  249 words of extra memory for PDF output out of 10000 (max. 10000000)
 

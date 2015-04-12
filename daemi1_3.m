@@ -1,10 +1,21 @@
 % Keyrsluskráin sýnir hvernig nálgunargildið breytist þegar við setjum punktuppsprettur í hægri hliðina.
-X= [0:1/3:2];% Skilgreinum bilið sem við ætlum að nálga á:
-% Búum til tvær mismunandi nálganir; með og án punktuppsprettu fyrir fallið u=x*ln(x)-x:
-c=Galerkinadferd(@(x)x,@(x)(1./x),@(x)-2+0*x,X,[0,1],[-1,-2],[0,-2],0,0);
-r=1;% Látum punktuppsprettu með stærð 0.01 koma inn í punkti x=1
+
+% Byrjum á að skilgreina breyturnar:
+p = @(x) x;
+q = @(x) 1./x;
+f = @(x) -2 + 0.*x;
+u=@(x) x.*log(x)-x;
+x = [0:1/3:2];
+alpha=[0,1];
+beta = [-1,-2];
+gamma=[0,-2];
+r=1;
 Q=0.01;
-cc=Galerkinadferd(@(x)x,@(x)(1./x),@(x)-2+0*x,X,[0,1],[-1,-2],[0,-2],r,Q);
-plot(X,c,'b') %Plottum upp nálgun án punktuppsprettu bláa.
+
+% Búum til tvær mismunandi nálganir; með og án punktuppsprettu fyrir fallið u=x*ln(x)-x:
+c=Galerkinadferd(p,q,f,x,alpha,beta,gamma,0,0);
+
+cc=Galerkinadferd(p,q,f,x,alpha,beta,gamma,r,Q);
+plot(x,c,'b') %Plottum upp nálgun án punktuppsprettu bláa.
 hold on
-plot(X,cc,'g')%Plottum upp nálgun með punktuppsprettu græna.
+plot(x,cc,'g')%Plottum upp nálgun með punktuppsprettu græna.
