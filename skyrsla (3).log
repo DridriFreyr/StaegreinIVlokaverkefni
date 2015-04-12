@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.10)  12 APR 2015 17:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.10)  12 APR 2015 17:16
 entering extended mode
 **skyrsla*(3).tex
 ("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).tex"
@@ -805,10 +805,8 @@ File: nalgun2_4.png Graphic file (type png)
  <use nalgun2_4.png>
 Package pdftex.def Info: nalgun2_4.png used on input line 201.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [4 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/nalgun1_4.png (PN
+G copy)>]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 211.
 
@@ -816,12 +814,10 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 211.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 211.
 
 Missing character: There is no ° in font cmr10!
-[4 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/nalgun1_4.png (PNG
- copy)>] [5 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/nalgun2_4
-.png (PNG copy)>] <2_2_e_0_2.png, id=125, 421.575pt x 316.18124pt>
+[5 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/nalgun2_4.png (PNG
+ copy)>] <2_2_e_0_2.png, id=125, 421.575pt x 316.18124pt>
 File: 2_2_e_0_2.png Graphic file (type png)
-
-<use 2_2_e_0_2.png>
+ <use 2_2_e_0_2.png>
 Package pdftex.def Info: 2_2_e_0_2.png used on input line 261.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
@@ -837,14 +833,14 @@ Package pdftex.def Info: 2_2_e_0.png used on input line 288.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[7 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/2_2_e_0_2.png (PNG
+ copy)>]
 Overfull \hbox (19.11086pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 function [W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,P
 ,Q,R,U,h)[] 
  []
 
-[7 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/2_2_e_0_2.png (PNG
- copy)>]
+
 Overfull \hbox (13.45248pt too wide) in paragraph at lines 430--430
 []\T1/cmtt/m/n/10.95 %Author: Andri Freyr Thorgeirsson, Erna Gudrun Thorsteinsd
 ottir og[] 
@@ -959,13 +955,13 @@ Overfull \hbox (92.66968pt too wide) in paragraph at lines 430--430
 dudum eins og vid til-[] 
  []
 
-
+[10]
 Overfull \hbox (7.79411pt too wide) in paragraph at lines 430--430
 []        \T1/cmtt/m/n/10.95 T_grid(n,m) = W_list(s); % Setjum inn gildi sem sa
 msvarar[] 
  []
 
-[10]
+[11]
 Overfull \hbox (64.37782pt too wide) in paragraph at lines 469--469
 []\T1/cmtt/m/n/10.95 >> [W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,[1,1],[
 0],[1,0],[1],0.1)[] 
@@ -977,53 +973,48 @@ Overfull \hbox (36.08597pt too wide) in paragraph at lines 469--469
 (1,:))),W');[] 
  []
 
-<sodulmynd1.png, id=151, 421.575pt x 316.18124pt>
+<sodulmynd1.png, id=156, 421.575pt x 316.18124pt>
 File: sodulmynd1.png Graphic file (type png)
  <use sodulmynd1.png>
 Package pdftex.def Info: sodulmynd1.png used on input line 472.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11]
+ [12 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/sodulmynd1.png (
+PNG copy)>]
 Overfull \hbox (53.06108pt too wide) in paragraph at lines 480--480
 []\T1/cmtt/m/n/10.95 >> contour(linspace(a,b,length(W(:,1))),linspace(c,d,lengt
 h(W(1,:))),W');[] 
  []
 
-<sodulmynd_contour.png, id=157, 421.575pt x 316.18124pt>
+<sodulmynd_contour.png, id=162, 421.575pt x 316.18124pt>
 File: sodulmynd_contour.png Graphic file (type png)
 
 <use sodulmynd_contour.png>
 Package pdftex.def Info: sodulmynd_contour.png used on input line 483.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/sodulmynd1.png (P
-NG copy)>]
-Overfull \hbox (19.11086pt too wide) in paragraph at lines 541--541
+ [13 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/sodulmynd_contou
+r.png (PNG copy)>]
+Overfull \hbox (19.11086pt too wide) in paragraph at lines 540--540
 [] \T1/cmtt/m/n/10.95 >>[W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,[],[],[
 ],[],0.1)[] 
  []
 
 
-Overfull \hbox (41.74434pt too wide) in paragraph at lines 541--541
+Overfull \hbox (41.74434pt too wide) in paragraph at lines 540--540
 [] \T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W(:,1))),linspace(c,d,length(
 W(1,:))),W');[] 
  []
 
-[13 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/sodulmynd_contour
-.png (PNG copy)>] <gudshusid.png, id=169, 421.575pt x 316.18124pt>
+<gudshusid.png, id=169, 421.575pt x 316.18124pt>
 File: gudshusid.png Graphic file (type png)
-
-<use gudshusid.png>
-Package pdftex.def Info: gudshusid.png used on input line 545.
+ <use gudshusid.png>
+Package pdftex.def Info: gudshusid.png used on input line 544.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 554--554
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 553--553
 [] \T1/cmtt/m/n/10.95 >> contour(linspace(a,b,length(W(:,1))),linspace(c,d,leng
 th(W(1,:))),W');[] 
  []
@@ -1032,28 +1023,28 @@ th(W(1,:))),W');[]
 File: gudshusid_contour.png Graphic file (type png)
 
 <use gudshusid_contour.png>
-Package pdftex.def Info: gudshusid_contour.png used on input line 560.
+Package pdftex.def Info: gudshusid_contour.png used on input line 559.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/gudshusid.png (PN
-G copy)>]
-Overfull \hbox (149.25339pt too wide) in paragraph at lines 590--590
+[14] [15 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/gudshusid.pn
+g (PNG copy)> <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/gudshus
+id_contour.png (PNG copy)>]
+Overfull \hbox (149.25339pt too wide) in paragraph at lines 589--589
 [] \T1/cmtt/m/n/10.95 >>[W,A,RHS]=Dirichletverkefni(a,b,c,d,p,q,f,gamma,[],[0],
 [0,0;-0.9,1;0.9,1],[1,1,1],0.1);[] 
  []
 
 
-Overfull \hbox (41.74434pt too wide) in paragraph at lines 590--590
+Overfull \hbox (41.74434pt too wide) in paragraph at lines 589--589
 [] \T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W(:,1))),linspace(c,d,length(
 W(1,:))),W');[] 
  []
 
-[15 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/gudshusid_contour
-.png (PNG copy)>]
-Overfull \hbox (94.28288pt too wide) in paragraph at lines 593--594
+
+Overfull \hbox (94.28288pt too wide) in paragraph at lines 592--593
 []\T1/cmr/m/n/10.95 Við völd-um að þar sem punktupp-sprett-urn-ar myndu byrja v
 æru hnit-in []\T1/cmtt/m/n/10.95 [0,0],[-0.9,1],[0.9,1]
  []
@@ -1062,37 +1053,40 @@ Overfull \hbox (94.28288pt too wide) in paragraph at lines 593--594
 File: hroarskelda_hlid.png Graphic file (type png)
 
 <use hroarskelda_hlid.png>
-Package pdftex.def Info: hroarskelda_hlid.png used on input line 597.
+Package pdftex.def Info: hroarskelda_hlid.png used on input line 596.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
 
 <hroarskelda_top.png, id=182, 1203.7472pt x 589.4522pt>
 File: hroarskelda_top.png Graphic file (type png)
 
 <use hroarskelda_top.png>
-Package pdftex.def Info: hroarskelda_top.png used on input line 604.
+Package pdftex.def Info: hroarskelda_top.png used on input line 603.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <hroarskelda_party.png, id=183, 1203.7472pt x 589.4522pt>
 File: hroarskelda_party.png Graphic file (type png)
 
 <use hroarskelda_party.png>
-Package pdftex.def Info: hroarskelda_party.png used on input line 611.
+Package pdftex.def Info: hroarskelda_party.png used on input line 610.
 (pdftex.def)             Requested size: 323.9978pt x 158.65053pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/hroarskelda_hlid.
-png (PNG copy)> <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/hroar
-skelda_top.png (PNG copy)>]
-Overfull \hbox (58.71945pt too wide) in paragraph at lines 649--649
+png (PNG copy)>] [17 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/
+hroarskelda_top.png (PNG copy)> <C:/Users/Dridri/Documents/GitHub/StaegreinIVlo
+kaverkefni/hroarskelda_party.png (PNG copy)>]
+Overfull \hbox (58.71945pt too wide) in paragraph at lines 648--648
 []\T1/cmtt/m/n/10.95 [W_dummy,A,RSH] = Dirichletverkefni(a,b,c,d,p,q,f,gamma,[]
 ,[],[],[],0.02);[] 
  []
 
-[17 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/hroarskelda_party
-.png (PNG copy)>]
-Overfull \hbox (53.06108pt too wide) in paragraph at lines 661--661
+
+Overfull \hbox (53.06108pt too wide) in paragraph at lines 660--660
 []\T1/cmtt/m/n/10.95 >> surf(linspace(a,b,length(W1(:,1))),linspace(c,d,length(
 W1(1,:))),W1');[] 
  []
@@ -1101,14 +1095,17 @@ W1(1,:))),W1');[]
 File: lagmarksflotur_hlid.png Graphic file (type png)
 
 <use lagmarksflotur_hlid.png>
-Package pdftex.def Info: lagmarksflotur_hlid.png used on input line 666.
+Package pdftex.def Info: lagmarksflotur_hlid.png used on input line 665.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <lagmarksflotur_framan.png, id=196, 421.575pt x 316.18124pt>
 File: lagmarksflotur_framan.png Graphic file (type png)
 
 <use lagmarksflotur_framan.png>
-Package pdftex.def Info: lagmarksflotur_framan.png used on input line 673.
+Package pdftex.def Info: lagmarksflotur_framan.png used on input line 672.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
@@ -1117,14 +1114,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <lagmarksflotur.png, id=197, 421.575pt x 316.18124pt>
 File: lagmarksflotur.png Graphic file (type png)
  <use lagmarksflotur.png>
-Package pdftex.def Info: lagmarksflotur.png used on input line 680.
+Package pdftex.def Info: lagmarksflotur.png used on input line 679.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (81.35294pt too wide) in paragraph at lines 687--687
+Overfull \hbox (81.35294pt too wide) in paragraph at lines 686--686
 []  \T1/cmtt/m/n/10.95 >> contour(linspace(a,b,length(W1(:,1))),linspace(c,d,le
 ngth(W1(1,:))),W1');[] 
  []
@@ -1133,37 +1130,40 @@ ngth(W1(1,:))),W1');[]
 File: lagmarksflotur_contour.png Graphic file (type png)
 
 <use lagmarksflotur_contour.png>
-Package pdftex.def Info: lagmarksflotur_contour.png used on input line 691.
+Package pdftex.def Info: lagmarksflotur_contour.png used on input line 690.
 (pdftex.def)             Requested size: 323.9978pt x 243.00197pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/lagmarksflotur_hl
-id.png (PNG copy)>] [19 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkef
-ni/lagmarksflotur_framan.png (PNG copy)> <C:/Users/Dridri/Documents/GitHub/Stae
-greinIVlokaverkefni/lagmarksflotur.png (PNG copy)>] [20 <C:/Users/Dridri/Docume
-nts/GitHub/StaegreinIVlokaverkefni/lagmarksflotur_contour.png (PNG copy)>]
-[21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 724.
+[18] [19 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/lagmarksflot
+ur_hlid.png (PNG copy)> <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkef
+ni/lagmarksflotur_framan.png (PNG copy)>]
+Overfull \vbox (12.93108pt too high) has occurred while \output is active []
+
+
+[20 <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/lagmarksflotur.pn
+g (PNG copy)> <C:/Users/Dridri/Documents/GitHub/StaegreinIVlokaverkefni/lagmark
+sflotur_contour.png (PNG copy)>] [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 723.
  [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 724.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 723.
 
 ("C:\Users\Dridri\Documents\GitHub\StaegreinIVlokaverkefni\skyrsla (3).aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 724.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 724.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 723.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 723.
 Package rerunfilecheck Info: File `skyrsla*(3).out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 724.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 723.
  ) 
 Here is how much of TeX's memory you used:
  9073 strings out of 493706
  128295 string characters out of 3142162
- 256309 words of memory out of 3000000
+ 257309 words of memory out of 3000000
  12204 multiletter control sequences out of 15000+200000
  13578 words of font info for 40 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1184,7 +1184,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "skyrsla (3).pdf" (22 pages, 473097 bytes).
+Output written on "skyrsla (3).pdf" (22 pages, 472713 bytes).
 PDF statistics:
  501 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)

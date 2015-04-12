@@ -125,17 +125,17 @@ Gerið grein fyrir því hvernig punktuppspretturnar eru meðhöndlaðar í forr
 \textbf{Lausn:} \par
 Við höfum gert ráð fyrir að hægri hliðin $f$ í afleiðujöfnunni sé samfellt. Getum líka bætt við það liðum sem eru margfeldi fasta og Dirac-delta-falls. Slíkir liðir lýsa orkuuppsprettum í stökum punktum.  Dirac-fallið í punktinum $r$ táknum við með $\delta _{r}$ . Eina reiknireglan sem við þurfum að kunna er að 
 
-$\int_{c}^{d}\delta _{r}(x) \varphi (x)dx=\varphi(r)$
+\begin{center}$\int_{c}^{d}\delta _{r}(x) \varphi (x)dx=\varphi(r)$\end{center}
 
 fyrir sérhvert fall $\varphi$ á grennd um lokaða bilið $[c,d]$ og sérhvern punt $r\in[c,d]$. Af þessu leiðir að ef $r=x_{k}$ er einn af punktunum í skipitingu á bilinu [a,b] og $\varphi_{j}$ er þúfugrunnfallið númer $j$, þá er 
 
-$\int_{\alpha}^{\beta}\delta_{x_{k}}(x)\varphi_{j}(x)dx = \varphi_{j}(x_{k})$
+\begin{center}$\int_{\alpha}^{\beta}\delta_{x_{k}}(x)\varphi_{j}(x)dx = \varphi_{j}(x_{k})$
 =
 $\begin{Bmatrix}
 1, j=k,
 \\ 
 0, j \neq k .
-\end{Bmatrix}$
+\end{Bmatrix}$\end{center}
 
 Í forritinu bætum við við punktuppsprettunum við hægri hlið fylkisins sem við erum búnin að búa til áður með eftirfarandi. 
 \begin{verbatim}
@@ -436,14 +436,14 @@ W=T_grid;
 Við erum með net með uppsprettupunkti.  En til þess að geta fundið hann þá þurfum við að vita fyrirframstaðsetingu á uppsprettupunktinum. 
 Það gerum við með eftirfarandi.
 við vitum að  
-$-\nabla(p \nabla u) + qu= f +Q \delta_{Ps}$ 
+\begin{center}$-\nabla(p \nabla u) + qu= f +Q \delta_{Ps}$ \end{center}
 ef uppsprettupunkturinn $\delta_{Ps}$ er í aðeins einum fyrirfram þekktum punkti þá vitum við að 
-$\int \int \delta_{Ps}(x,y)dA=1$ 
+\begin{center}$\int \int \delta_{Ps}(x,y)dA=1$ \end{center}
  svo ef við heildum yfir jaðarinn í kringum punktuppsprettuna þá fá um við út 
  $.....+q_i*h^2=f_i*h^2+Q_s$
  Síðan stöðlum við þessa jöfnu með því að deila öllu með $h^2$
  og þá fáum við út 
- $b_i= f_i+\frac{Q_s]}{h^2}$
+ \begin{center}$b_i= f_i+\frac{Q_s]}{h^2}$\end{center}
 \subsection{}
 Þið þurfið að sannfæra ykkur um forritið reikni rétt.  Tökum t.d. fallið $u(x,y)=x^2-y^2$ veljið D=[-1,1]x[-1,1], og $\gamma(x,y)=x^2-y^2$ á öllum jaðrinum, þá eigið þið að fá nálgunarfall sem er nánast eins og rétta lausnin.
 
@@ -491,8 +491,7 @@ Köllum svo á fallið:
 Notið forritið ykkar til að þess að taka svæðið á D]-1,1]x[-1,1[, og reikna út og teikna upp lausinina á 
 
 
-
-
+\begin{center}
 $
 \left\{\begin{matrix}
 $$\nabla^2u=0
@@ -515,7 +514,7 @@ $
  
  \end{matrix}\right.
  $
- 
+\end{center}
  
  Setjið teikningu af grafi lausnarinnar í skýrsluna. 
  
