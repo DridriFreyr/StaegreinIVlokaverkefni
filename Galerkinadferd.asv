@@ -22,7 +22,7 @@ A(2:N-1,2) = pm(1:N-2)./h(1:N-2)+pm(2:N-1)./h(2:N-1)+(h(1:N-2).*qm(1:N-2) +h(2:N
 A(2:N,1) = -pm(1:N-1)./h(1:N-1)+h(1:N-1).*qm(1:N-1)/6;
 A(1:N-1,3) = A(2:N,1);
 b(2:N-1) = (h(1:N-2).*(fx(1:N-2)+2*fx(2:N-1))+h(2:N-1).* (2*fx(2:N-1) +fx(3:N)))/6;
-% Fyllum svo inn í fyrstu línurnar, eftir því hver betan er.
+% Fyllum svo inn í fyrstu línurnar, eftir því hvað betan er.
 if beta(1) == 0
     A(1,2) = alpha(1);
     A(1,3) = 0;
@@ -49,6 +49,5 @@ for j=1:m
 end
 end
 %Notumst svo við forrit tridiagonal_solve sem Ragnar gaf á Uglu til að leysa út fyrir c.
-%Við gerum ráð fyrir að forritið tridiagonal_solve sé þekkt.
 c=tridiagonal_solve(A,b); 
 plot(x,c)

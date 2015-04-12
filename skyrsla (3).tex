@@ -2,12 +2,13 @@
 \documentclass[11pt,a4paper,titlepage]{article}
 \usepackage[utf8]{inputenc} 
 \usepackage[english,icelandic]{babel}
-\usepackage{t1enc}
-\usepackage{hyperref}
+\usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-\usepackage{amssymb}
 \usepackage{mdwlist} 
+\usepackage{hyperref}
+\usepackage{t1enc}
+\usepackage{float}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage[numbered, framed]{mcode} 
@@ -63,14 +64,14 @@ Forritið er svona útlítandi
 
 
 \subsection{}
-Rökstyðjið að aðferð Galerkins virki með ósamfellt $p$ eins og lýst er hér að framan. Það eina sem þarf að gera að sýna að hlutheildunin sem liggur t il grundvallar aðferðinni virki í þessu tilfelli þegar $p$ er ósamfellt eins og lýst er hér að framan. 
+Rökstyðjið að aðferð Galerkins virki með ósamfellt $p$ eins og lýst er hér að framan. Það eina sem þarf að gera að sýna að hlutheildunin sem liggur til grundvallar aðferðinni virki í þessu tilfelli þegar $p$ er ósamfellt eins og lýst er hér að framan. 
 \par
 
 \textbf{Lausn:} \par
 
 Við getum sýnt fram á virkni Galerkins aðferðarinnar fyrir ósamfellt $p$ með því að skipta bilinu sem heilda á yfir, upp í búta.\par
 Ef við ætlum okkur að beita aðferðinni á bili [a,b] þar sem fall $p$ er ósamfellt í endanlega mörgum innri-punktum $s_{i}$ á bilinu, nægir okkur að beita aðferð Galarkins á búta\par \begin{center}[a,$s_{i}$], [$s_{i}$,$s_{i+1}$],$\cdot \cdot \cdot$, [$s_{n}$,b].\end{center}
-Ljóst er að þegar lagaðar eru saman lausnir fyrir hvern bút, þá munu liðir háðir p($s_{i}$) styttast út hver á móti örðum.\par
+Ljóst er að þegar lagaðar eru saman nálganir fyrir hvern bút, þá munu liðir háðir p($s_{i}$) styttast út hver á móti örðum.\par
 Við getum því notfært okkur þetta og lagt saman heildin fyrir hvert hlutbil til þess að fá nálgunina fyrir allt bilið.
 
 Skoðum tilfellið þar sem $p$ er ósamfellt í einum punkti s á bili [a,b].
@@ -87,7 +88,7 @@ Sem gefur svo:
 \begin{center}
 	$\int_{a}^{b}-(p(x)*u{(x)}')dx + \int_{a}^{b}q(x)u(x)dx= \int_{a}^{b}f(x)$
 \end{center} \par
-Það er því ljóst að punktur $p(s)$ hefur ekki áhrif á niðurstöðun og því virkar Galerkin aðferðin fyrir ósamfellt $p$. 
+Það er því ljóst að punktur $p(s)$ hefur ekki áhrif á niðurstöðuna og því virkar Galerkin aðferðin fyrir ósamfellt $p$. 
 En til þess að svo megi vera þarf að gilda að þar sem $p(s_{i})$ er ósamfellt, þá þarf $p(s_{i})*u'(s_{i})$ að vera samfellt og $u'(s_{i})$ ósamfellt.
 
 
@@ -117,13 +118,13 @@ $\begin{Bmatrix}
 Til þess að skoða hvaða áhrif það hefur að bæta punktuppsprettu við hægri hliðina, ákváðum við að nýta okkur dæmi 8.1 sem við leystum fyrr á önnini.
 Við bárum því saman nálgunina með punktuppsprettu við nálgunina án hennar með eftirfarandi skipunarskrá:
  \lstinputlisting{daemi1_3.m}
-   \begin{figure}[h!]
-   	\centering
-   	\includegraphics[width=0.9\textwidth]{mynd1_3.png}
-   	\caption{Mynd af fallinu og nálguninni.}
-   	\label{fig:awesome_image1}
-   \end{figure}
-Ljóst er að við það að bæta við gildið í punkti x=1 punktuppsprettu, hefur það áhrif á alla punkta í kring. 
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.9\textwidth]{mynd1_3.png}
+ 	\caption{Hér sést nálgun með punktuppsprettu að stærð Q= 0.01 í punkti x=1 (grænn ferill) miðað við nálgun án hennar (blár ferill). }
+ 	\label{fig:awesome_image1}
+ \end{figure}
+Ljóst er að við það að bæta við gildið í punkti x=1 punktuppsprettu, hefur það áhrif á alla punkta í kring.
 
 \subsection{}
 Finnið sjálf heppilegt sýnidæmi til þess að prófa hvort forritið virki rétt. Kannið hvort skekkjan í nálguninni er $O(h^2)$, þar sem $h$ táknar billengd í jafnri skiptingu með því að prófa forritið í sýnidæminu með fjölda bila $N$=2,4,8....
@@ -164,7 +165,7 @@ ans =
  
  Fáum þá út fallið og nálgunarfallið. 
  
-  \begin{figure}[h!]
+  \begin{figure}[H]
       \centering
       \includegraphics[width=0.9\textwidth]{nalgun1_4.png}
       \caption{Mynd af fallinu og nálguninni.}
